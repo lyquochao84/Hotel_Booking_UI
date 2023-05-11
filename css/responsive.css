@@ -614,9 +614,9 @@
 }
 
 /* Regular Computer */
-@media (min-width: 160em)  {
+@media (min-width: 100em)  {
     .checkAvailability {
-        padding-bottom: 90px;
+        
     }
 
     .service-homepage {
