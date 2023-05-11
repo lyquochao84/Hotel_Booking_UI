@@ -616,7 +616,7 @@
 /* Regular Computer */
 @media (min-width: 100em)  {
     .checkAvailability {
-        transform: translateY(160px);
+        padding-bottom: 90px;
     }
 
     .service-homepage {
