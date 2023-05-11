@@ -614,7 +614,7 @@
 }
 
 /* Regular Computer */
-@media (min-width: 100em)  {
+@media (min-width: 160em)  {
     .checkAvailability {
         padding-bottom: 90px;
     }
