@@ -1,0 +1,374 @@
+ @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap'); 
+ @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+:root {
+    --primary-color: #062b80;
+    --white-color: #FFFFFF;
+    --black-color: #000;
+    --red-color: #fc3c3c;
+    --orange-color: #FF6347;
+    --review-color: #dedb35;
+    --background-color: #f8f8f8;
+    --transition: all 0.7s ease;
+
+    --icon-color: #ccc;
+}
+
+/* Reset CSS */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    /* HACK */
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Line Part On Nav*/
+.white-line {
+    width: 80px;
+    height: 3px;
+    background: #fff;
+    position: absolute;
+    margin-left: 140px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+
+/* Header part */
+.header {
+    background-color: transparent;
+    position: relative;
+    z-index: 3;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+}
+
+.logo-img {
+    width: 13.7rem;
+    max-height: 8.0rem;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.nav-element {
+    list-style: none;
+}
+
+.nav-menu > li > a {
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: 1.6rem;
+    font-weight: 300;
+    padding: 14px 16px;
+}
+
+.nav-menu > li > a:hover {
+    opacity: 0.8;
+}
+  
+.active {
+    border-bottom: 2px solid white;
+}
+
+.rooms_navigation {
+    padding-right: 10px;
+}
+
+.rooms__search-select-icon {
+    font-size: 1.4rem;
+    color: rgb(131, 131, 131);
+    margin: 0px 0 0 -13px;
+    position: relative;
+    top: -2px;
+}
+
+.rooms__search-option {
+    list-style: none;
+    position: absolute;
+    background-color: var(--white-color);
+    border-radius: 6px;
+    margin-top: 10px;
+    display: none;
+    animation: fadeIn ease-in 0.5s;
+    z-index: 1;
+}
+
+.rooms__search-option-item > a {
+    text-decoration: none;
+    color: var(--black-color);
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 20px 12px;
+    text-align: center;
+}
+
+.rooms__search-option-item > a:hover {
+    background-color: rgb(131, 131, 131);
+    border-radius: 6px;
+    cursor: pointer;
+    color: var(--white-color);
+    animation: fadeIn ease-in 0.3s;
+}
+
+.rooms_navigation:hover
+.rooms__search-option {
+    display: block;
+}
+
+/* Mobile Menu On Navigation */
+.header .mobile-menu-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
+.header .mobile-menu-btn {
+    float: right;
+    padding: 0 30px;
+}
+
+.header .mobile-menu-btn:hover {
+    background-color: #ccc;
+}
+
+.header .mobile-menu-btn:hover .menu-icon {
+    color: #000;
+}
+
+.header .menu-icon,
+.header .search-icon {
+    color: #fff;
+    font-size: 20px;
+    line-height: 46px;
+}
+
+/* Guest Review */
+.guest-container {
+    height: 700px;
+    background-color: var(--white-color);
+    margin-bottom: 150px;
+}
+
+.guest-review {
+    height: 290px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.guest-review .guest-review-info {
+    flex: 0 0 30%;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: #fff;
+    margin-top: 100px;
+}
+
+.guest-title {
+    padding-top: 100px;
+}
+
+.guest-title h2 {
+    font-size: 6.0rem;
+    line-height: 80px;
+    font-weight: 350;
+}
+
+.guest-review-info h2 {
+    padding-top: 20px;
+    font-size: 18px;
+    font-family: 'Raleway';
+}
+
+.guest-review-info p {
+    font-family: Raleway;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+#people1 {
+    vertical-align: middle;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.review-div {
+    display: flex;
+}
+
+.review-div h2 {
+    margin-left: 20px;
+}
+
+.bottom-container {
+    transform: translateY(-650px);
+}
+
+.user-review-rating {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: var(--review-color);
+}
+
+.guest-review-index-page {
+    transform: translateY(623px);
+}
+
+/* Footer Part */
+.footer {
+    background-color: #333333;
+    position: relative;
+    padding: 13em 0;
+    top: 104em;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.about-us-footer {
+    background-color: #333333;
+    padding: 13em 0;
+    top: 104em;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.service-page-footer {
+    background-color: #333333;
+    padding: 13em 0;
+    top: 104em;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.attraction-page-footer {
+    background-color: #333333;
+    padding: 13em 0;
+    top: 104em;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.footer-introduce {
+    font-size: 2.8rem;
+    font-weight: 400;
+    color: var(--white-color);
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.footer-introduce-paragraph {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--white-color);
+    margin-bottom: 30px;
+    text-align: justify;
+    line-height: 26px;
+}
+
+.footer-introduce-btn {
+    margin: 20px 0;
+    border: 3px solid #fff;
+    background-color: var(--white-color);
+    padding: 13px 20px;
+    cursor: pointer;
+    transition: var(--transition);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #999999;
+}
+
+.footer-introduce-btn:hover {
+    background-color: transparent;
+}
+
+.footer-experiences-title {
+    margin-left: 40px;
+}
+
+.footer-experiences {
+    list-style: none;
+    margin-left: 40px;
+}
+
+.footer-experiences-link {
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: var(--white-color);
+    text-transform: uppercase;
+}
+
+.footer-experiences-link:hover {
+    opacity: 0.8;
+}
+
+.footer-experiences-child {
+    margin-bottom: 50px;
+}
+
+.contact-info-child {
+    display: flex;
+    margin-bottom: 26px;
+    align-items: center;
+}
+.contact-info-icon {
+    font-size: 1.6rem;
+    color: var(--icon-color);
+    margin-right: 20px;
+}
+
+.contact-info-description {
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 30px;
+    color: var(--white-color);
+    font-family: 'Lato', sans-serif;
+}
+
+.copyright {
+    padding-top: 120px;
+}
+
+.copyright-text {
+    font-size: 2.0rem;
+    font-weight: 300;
+    color: var(--white-color);
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

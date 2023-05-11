@@ -1,0 +1,632 @@
+/* Mobile */
+@media (max-width: 46.1875em)  {
+    .header .mobile-menu-btn {
+        display: block;
+        margin-top: 22px;
+    }
+
+    .nav-menu {
+        background-color: var(--white-color);
+        border-radius: 6px;
+        display: none;
+        animation: fadeIn ease-in 0.5s;
+    }
+
+    .nav-container {
+        display: block;
+    }
+
+    .nav-element {
+        display: block;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .nav-menu > li > a {
+        font-size: 2.0rem;
+        color: var(--black-color);
+        font-weight: 600;
+        width: 100%;
+        height: 100%;
+        display: block;
+        padding: 20px 12px;
+    }
+
+    .rooms_navigation > i {
+        display: none;
+    }
+
+    .rooms__search-option {
+        display: none;
+    }
+
+    .text-content {
+        margin-top: 154px;
+    }
+
+    .checkAvailability {
+        transform: translateY(40px);
+    }
+
+    .queenroom-homepage-wrap {
+        transform: translateY(-41px);
+    }
+
+    .kingroom-homepage-wrap {
+        transform: translateY(-21px);
+    }
+
+    .footer {
+        margin-top: 100px;
+        padding-bottom: 730px;
+    }
+
+    .second-guest-review-info-mobile {
+        display: none;
+    }
+
+    .third-guest-review-info-mobile {
+        display: none;
+    }
+
+    .footer-introduce-btn {
+        margin-bottom: 124px;
+    }
+
+    .footer-experiences-title {
+        margin-left: 0px;
+    }
+
+    .footer-experiences {
+        margin-left: 0px;
+    }
+
+    .footer-experiences-child:last-child {
+        margin-bottom: 124px;
+    }
+    
+    .copyright-text {
+        line-height: 26px;
+    }
+
+    .about-us-content {
+        transform: translateY(558px);
+    }
+
+    .about-us-right-text-wrap {
+        margin-left: 0;
+        line-height: 36px;
+    }
+
+    .about-us-service-part-background-color {
+        padding-top: 100px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 510px;
+    }
+
+    .room-page-wrap {
+        display: none;
+    }
+
+    .rooms-page-content {
+        transform: translateY(813px);
+    }
+
+    .morerooms-content-container:last-child {
+        padding-bottom: 100px;
+    }
+
+    .each-room-content {
+        transform: translateY(714px);
+    }
+
+    .main {
+        overflow: hidden;
+    }
+
+    .services-left-img > img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .services-right-img > img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .services-right-container {
+        margin-left: 0;
+    }
+
+    .iphone-service-page {
+        padding-bottom: 100px;
+    }
+
+    .guest-review-service-page {
+        transform: translateY(-175px);
+    }
+
+    .service-page-footer {
+        padding-bottom: 730px;
+    }
+
+    .attraction-child1 {
+        margin-top: 150px;
+    }
+
+    .attraction-child {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .mobile-attractions-container {
+        box-shadow: 0 10px 20px -10px rgb(0 0 0 / 20%);
+    }
+
+    .attraction-description {
+        max-width: 100%;
+        height: auto;
+        padding: 56px 0;
+    }
+
+    .contact-us-content {
+        transform: translateY(737px);
+    }
+
+    .contact-us-content h2 {
+        line-height: 40px;
+    }
+
+    .contact-page-introduce {
+        margin-left: 0;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+    .contact-page-info-wrap {
+        margin-left: 0;
+    }
+
+    .contact-page-info-wrap {
+        margin-bottom: 50px;
+    }
+
+    .services-section {
+        flex-wrap: wrap;
+    }
+}
+
+/* Tablet / Ipad */
+@media (min-width: 46.25em) and (max-width: 62.938em) {
+    .header {
+        overflow: hidden;
+    }
+
+    .nav-container {
+        display: block;
+    }
+
+    .nav-menu {
+        background-color: var(--white-color);
+        border-radius: 6px;
+        display: none;
+        animation: fadeIn ease-in 0.5s;
+    }
+
+    .nav-element {
+        display: block;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .nav-menu > li > a {
+        font-size: 2.0rem;
+        color: var(--black-color);
+        font-weight: 600;
+        width: 100%;
+        height: 100%;
+        display: block;
+        padding: 20px 12px;
+    }
+
+    .header .mobile-menu-btn {
+        display: block;
+        margin-top: 22px;
+    }
+
+    .rooms_navigation > i {
+        display: none;
+    }
+
+    .rooms__search-option {
+        display: none;
+    }
+
+    .service-homepage {
+        transform: translateY(176px);
+        padding-bottom: 100px;
+    }
+
+    .content {
+        transform: translateY(740px);
+    }
+
+    .familysuite-homepage-wrap {
+        margin: 60px 0;
+    }
+
+    .room-homepage {
+        transform: translateY(-36px);
+    }
+    
+    .moreroom-btn {
+        margin: 100px 0 70px;
+    }
+
+    .guest-review-info  {
+        padding-bottom: 100px;
+    }
+
+    .third-guest-review-info-mobile {
+        display: none;
+    }
+
+    .guest-review-index-page {
+        transform: translateY(622px);
+    }
+
+    .footer {
+        margin-top: 200px;
+    }
+
+    .footer-introduce {
+        padding-top: 50px;
+    }
+
+    .about-us-content {
+        transform: translateY(606px);
+    }
+
+    .about-us-right-text-wrap {
+        line-height: 36px;
+        margin-left: 0;
+    }
+
+    .ipad-service-homepage {
+        margin-top: 0px;
+    }
+
+    .guest-review-about-us-page {
+        transform: translateY(630px);
+    }
+
+    .about-us-footer {
+        transform: translateY(773px);
+    }
+
+    .rooms-page-content {
+        transform: translateY(948px);
+        padding-bottom: 182px;
+    }   
+    
+    .each-room-content {
+        transform: translateY(898px);
+        padding-bottom: 100px;
+    }
+
+    .service-page-content {
+        transform: translateY(846px);
+    }
+
+    .services-right-container {
+        margin-left: 0;
+    }
+
+    .first-services-section {
+        margin-bottom: 0;
+    }
+
+    .ipad-service-page {
+        margin-top: 0;
+    }
+
+    .guest-review-service-page {
+        transform: translateY(0);
+    }
+
+    .service-page-footer {
+        margin-top: 200px;
+    }
+
+    .attraction-container {
+        transform: translateY(861px);
+        padding-bottom: 142px;
+    }
+
+    .attraction-child {
+        width: 547px;
+    }
+
+    .mobile-attractions-container {
+        margin-bottom: 100px;
+        padding-left: 50px;
+        box-shadow: 0 10px 20px -10px rgb(0 0 0 / 20%);
+        transform: translateY(98px);
+
+    }
+
+    .attraction-description {
+        margin-top: 30px;
+        margin-bottom: 33px;
+    }
+
+    .contact-us-content {
+        transform: translateY(925px);
+        padding-bottom: 120px;
+    }
+
+    .contact-us-content h2 {
+        line-height: 30px;    
+    
+    }
+
+    .contact-page-introduce {
+        margin-top: 12px;
+    }
+
+    .iphone-room-page {
+        display: none;
+    }
+
+    .services-section {
+        flex-wrap: wrap;
+    }
+}
+
+/* Ipad Air */
+@media only screen and (width: 820px) {
+    .ipad-air-content {
+        transform: translateY(1000px);
+    }
+
+    .ipad-air-checkAvailability {
+        transform: translateY(294px);
+    }
+
+    .ipad-air-room-homepage-content {
+        padding-bottom: 300px;
+    }
+
+    .ipad-air-service-about-us {
+        padding-bottom: 450px;
+    }
+
+    .ipad-air-room-page-wrap {
+        margin-top: 200px;
+    }
+
+    .ipad-air-room-detail-title {
+        margin-top: 163px;
+    }
+
+    .ipad-air-more-info-btn {
+        margin-bottom: 110px;
+    }
+
+    .mobile-attractions-container:last-child {
+        margin-bottom: 215px;
+    }
+
+    .contact-us-content  {
+        margin-top: 200px;
+        margin-bottom: 400px;
+    }
+
+    .iphone-room-page {
+        display: none;
+    }
+
+    .services-section {
+        flex-wrap: wrap;
+    }
+
+}
+
+/* Laptop Responsive */
+@media (min-width: 63em) and (max-width: 99.9375em) {
+    .checkAvailability {
+        transform: translateY(36px);
+    }
+
+    .service-homepage {
+        margin-top: 30px;
+        margin-bottom: 120px;
+    }
+
+    .text-content {
+        margin-top: 140px;
+    }
+
+    .laptop-content {
+        transform: translateY(600px);
+    }
+
+    .about-us-laptop-img {
+        padding-top: 0%;
+    }
+
+    .about-us-left-text-wrap-laptop {
+        margin-bottom: 100px;
+    }
+
+    .guest-review-laptop-about-us-page {
+        transform: translateY(504px);
+    }
+
+    .laptop-service-homepage {
+        padding: 100px 0;
+    }
+
+    .guest-review-laptop-index-page {
+        transform: translateY(618px);
+    }
+
+    .guest-container {
+        padding-bottom: 0;
+    }
+
+    .about-us-footer {
+        transform: translateY(568px);
+    }
+
+    .rooms-page-content {
+        transform: translateY(520px);
+    }
+
+    .each-room-content {
+        transform: translateY(540px);
+    }
+
+    .service-page-content {
+        transform: translateY(400px);
+    }
+
+    .service-page-first-part {
+        margin-top: 120px;
+        margin-bottom: 120px;
+    }
+
+    .guest-review-service-page {
+        transform: translateY(-80px);
+    }
+
+    .attraction-container {
+        transform: translateY(540px);
+    }
+
+    .contact-us-content {
+        transform: translateY(550px);
+    }
+
+    .iphone-room-page {
+        display: none;
+    }
+
+}
+
+/* Ipad Pro */ 
+@media only screen and (width: 1024px) {
+    .checkAvailability {
+        transform: translateY(430px);
+    }
+
+    .content {
+        transform: translateY(1384px);
+    }
+
+    .room-homepage {
+        padding-bottom: 760px;
+    }
+
+    .guest-review-index-page {
+        padding-bottom: 122px;
+    }
+
+    .about-us-content {
+        transform: translateY(1345px);
+    }
+
+    .ipad-pro-about-us-service-homepage {
+        padding-bottom: 810px;
+    }
+
+    .guest-review-about-us-page {
+        padding-bottom: 100px;
+    }
+
+    .rooms-page-content {
+        transform: translateY(1300px);
+    }
+
+    .morerooms-content-wrap {
+        padding-bottom: 700px;
+    }
+
+    .each-room-content {
+        transform: translateY(1300px);
+        padding-bottom: 700px;
+    }
+
+    .service-page-content {
+        transform: translateY(1250px);
+    }
+    
+    .services-section {
+        flex-wrap: nowrap;
+    } 
+
+    .ipad-service-page {
+        padding-bottom: 70px;
+    }
+
+    .guest-review-service-page {
+        padding-bottom: 100px;
+    }
+
+    .main {
+        overflow: hidden;
+    }
+
+    .attraction-container {
+        transform: translateY(1300px);
+        padding-bottom: 700px;
+    }
+
+    .attraction-child {
+        max-width: 100%;
+        height: auto;
+        padding-bottom: 72px;
+    }
+
+    .attraction-description {
+        width: 44%;
+    }
+
+    #attraction-pic {
+        max-height: 100%;
+    }
+    
+    .contact-us-content {
+        transform: translateY(1262px);
+        padding-top: 69px;
+        padding-bottom: 665px;
+    }
+
+    .footer,
+    .about-us-footer {
+        padding-bottom: 700px;
+    }
+
+    .service-page-footer {
+        padding-bottom: 1300px;
+    }
+}
+
+/* Regular Computer */
+@media (min-width: 100em)  {
+    .checkAvailability {
+        transform: translateY(160px);
+    }
+
+    .service-homepage {
+        margin-bottom: 180px;
+        margin-top: 240px;
+    }
+
+    .iphone-room-page {
+        display: none;
+    }
+
+}
+

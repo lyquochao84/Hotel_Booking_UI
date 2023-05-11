@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anaheim Carrage Inn</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./fonts/fontawesome-free-6.2.1-web/css/all.min.css">
+</head>
+<body>
+    <div class="main">
+        <!-- Header Part -->
+        <div class="header">
+            <div class="grid wide">
+                <nav class="nav-container">
+                    <a href="./index.html"><img class="logo-img" src="./img/logo_new.png" alt=""></a>
+        
+                    <ul class= "nav-menu">
+                        <li class="nav-element">
+                            <a href="./index.html" class="active">Home</a>    
+                        </li>
+                        <li class="nav-element">
+                            <a href="./html/about-us.html">About Us</a>    
+                        </li>
+                        <li class="nav-element rooms_navigation">
+                            <a href="./html/rooms.html" class="rooms__search-select-label">Rooms</a>   
+                            <i class="fa-solid fa-caret-down rooms__search-select-icon"></i>
+                            <ul class="rooms__search-option">
+                                <li class="rooms__search-option-item">
+                                    <a href="./html/queenroom.html">Queen Room</a>
+                                </li>
+                                <li class="rooms__search-option-item">
+                                    <a href="./html/kingroom.html">King Room</a>
+                                </li>
+                                <li class="rooms__search-option-item">
+                                    <a href="./html/spaking.html">Spa King</a>
+                                </li>
+                                <li class="rooms__search-option-item">
+                                    <a href="./html/minisuite.html">Mini Suite</a>
+                                </li>
+                                <li class="rooms__search-option-item">
+                                    <a href="./html/familysuite.html">Family Suite</a>
+                                </li>
+                                <li class="rooms__search-option-item rooms__search-option-long-item">
+                                    <a href="./html/twobathroom.html">Two Bath Family Double Queen Suite</a>
+                                </li>
+                                <li class="rooms__search-option-item rooms__search-option-long-item">
+                                    <a href="./html/handicaproom.html">Handicap Accessible Queen Room</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-element">
+                            <a href="./html/service.html">Services</a>    
+                        </li>
+                        <li class="nav-element">
+                            <a href="./html/attraction.html">Attractions</a>    
+                        </li>
+                        <li class="nav-element">
+                            <a href="./html/contact.html">Contact Us</a>    
+                        </li>
+
+                        <div class="nav-line"></div>
+                    </ul>
+
+                    <!-- Mobile menu button -->
+                    <div id="mobile-menu" class="mobile-menu-btn" onclick="mobileFunction()">
+                        <i class="menu-icon fa-solid fa-bars"></i>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    
+        <!-- Slider Part -->
+        <div class="slider">
+            <div class="grid wide">
+                <div class="row no-gutters">
+                    <div class="col l-12 m-12 c-12">
+                        <div class="text-content">
+                            <div class="introduce-wrap">
+                                <h1>Welcome</h1>
+                                <div class="white-line-main-page"></div>
+                            </div>
+                            <p>Enjoy your experience at <br> Anaheim Carrage Inn</p>
+                            <button type="button" class="slider-btn">
+                                <a href="./html/about-us.html">learn more</a>
+                            </button>
+                        </div>
+                        <div class="checkAvailability ipad-air-checkAvailability">
+                            <button type="button" class="checkAvailability-btn">
+                                <a href="https://myres.myhms4.com/myres/bh/search.do?hotelCode=19731">
+                                    check availability
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+       <!-- Content -->
+        <div class="content laptop-content ipad-air-content">
+            <!-- Main Page - Service Part -->
+            <div class="service-homepage">
+                    <div class="grid wide">
+                         <div class="row">
+                               <div class="col l-12 m-12 c-12">
+                                   <div class="service-homepage_text-content">
+                                       <h2>Services</h2>
+                                       <p>Facilities & Services</p>
+                                   </div>
+                               </div>
+                               <div class="col l-4 m-6 c-12">
+                                   <div class="service-hompage_service-wrap">
+                                       <i class="service-hompage-icon fa-solid fa-bed"></i>
+                                       <div class="service-hompage_service-wrap-text">
+                                           <h3>Luxury Rooms</h3>
+                                           <p>Provides guests with a high level of personal service and attention. This service typically includes a wide range of options for in-room dining</p>
+                                       </div>
+                                   </div>
+                               </div>
+                               <div class="col l-4 m-6 c-12">
+                                   <div class="service-hompage_service-wrap">
+                                       <i class="service-hompage-icon fa-solid fa-wifi"></i>
+                                       <div class="service-hompage_service-wrap-text">
+                                           <h3>Fast & Free Wifi</h3>
+                                           <p>Having access to high-speed internet allows guests to stay connected with their work, family and friends, 
+                                            and also to stream video, music and browse the internet with ease. 
+                                            A fast and free WiFi service typically means that the hotel provides internet access to guests with no additional cost and with a high speed that allows for quick and smooth connection
+                                        </p>
+                                       </div>
+                                   </div>
+                               </div>
+                               <div class="col l-4 m-6 c-12">
+                                   <div class="service-hompage_service-wrap">
+                                       <i class="service-hompage-icon fa-solid fa-phone-volume"></i>
+                                       <div class="service-hompage_service-wrap-text">
+                                           <h3>Call Us 24 / 7</h3>
+                                           <p>24/7 front desk service ensures that guests can check-in and check-out at any time and have any questions or concerns addressed by a representative. Room service that is available 24/7 allows guests to order food and beverages at any time, even in the middle of the night. 24/7 security service ensures the safety and security of guests and their belonging</p>
+                                       </div>
+                                   </div>
+                               </div>
+                               <div class="col l-4 m-6 c-12">
+                                   <div class="service-hompage_service-wrap">
+                                       <i class="service-hompage-icon fa-solid fa-taxi"></i>
+                                       <div class="service-hompage_service-wrap-text">
+                                           <h3>Travel Accomodation</h3>
+                                           <p>Service is designed to help travelers find a comfortable and suitable place to stay while on the go, and to make the booking process as smooth and stress-free as possible</p>
+                                       </div>
+                                   </div>
+                               </div>
+                               <div class="col l-4 m-6 c-12">
+                                   <div class="service-hompage_service-wrap">
+                                       <i class="service-hompage-icon fa-regular fa-credit-card"></i>
+                                       <div class="service-hompage_service-wrap-text">
+                                           <h3>Accepts Credit Card</h3>
+                                           <p>Allows guests to pay for their room, any additional amenities, or charges incurred during their stay using their credit or debit card. Credit/debit card payments can be made at check-in, check-out, or during the stay</p>
+                                       </div>
+                                   </div>
+                               </div>
+                               <div class="col l-4 m-6 c-12">
+                                   <div class="service-hompage_service-wrap">
+                                       <i class="service-hompage-icon fa-solid fa-charging-station"></i>
+                                       <div class="service-hompage_service-wrap-text">
+                                           <h3>Tesla Charging Station</h3>
+                                           <p>The Supercharger network allows you to stay charged on the go. 
+                                            Plug in at a convenient location, grab a cup of coffee or a quick bite to eat, and get back on the road</p>
+                                       </div>
+                                   </div>
+                               </div>
+                        </div>
+                    </div>
+            </div>
+
+            <!-- Main Page - Room Part -->
+            <div class="room-homepage">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-12 m-12 c-12">
+                            <div class="room-homepage_text-content">
+                                <h2>FEATURED ROOMS</h2>
+                                <h3>Rooms & Suites</h3>
+                                <p>We have a variety selection of rooms for customers to choose</p>
+                            </div>
+                        </div>
+                        <div class="room-homepage-content ipad-air-room-homepage-content">
+                            <div class="row">
+                                <div class="col l-4 m-6 c-12">
+                                    <div class="queenroom-homepage-wrap room-homepage-wrap">
+                                        <a href="./html/queenroom.html">
+                                            <div class="queenroom-homepage-img room-homepage-img"></div>
+                                        </a>
+                                        <h2>Queen Room</h2>
+                                        <!-- <div class="queenroom-hompage-price room-hompage-price">
+                                            <sup>$</sup>
+                                            <span class="queenroom-price-number room-price-number">100</span>
+                                            <sub>/per night</sub>
+                                        </div> -->
+                                        <ul class="queenroom-homepage-text-wrap room-homepage-text-wrap">
+                                            <li class="queenroom-hompage-description room-homepage-description">
+                                                <strong>We are: </strong> 100% non-smoking facility
+                                            </li>
+                                            <li class="queenroom-hompage-description room-homepage-description">
+                                                <strong>Private: </strong> Bathroom
+                                            </li>
+                                            <li class="queenroom-hompage-description room-homepage-description">
+                                                <strong>Facilities: </strong>
+                                                Tea/Coffee Maker, Premium Cable TV Channels, Microwave and Refrigerator
+                                            </li>
+                                            <li class="queenroom-hompage-description room-homepage-description">
+                                                <strong>Size: </strong> 300 sq ft
+                                            </li>
+                                            <li class="queenroom-hompage-description room-homepage-description">
+                                                <strong>Bed Type: </strong> Two Queen Bed
+                                            </li>
+                                        </ul>
+
+                                        <button class="more-info-btn more-info-each-room-btn">
+                                            <a href="./html/contact.html">
+                                                More Info
+                                            </a>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="col l-4 m-6 c-12">
+                                    <div class="kingroom-homepage-wrap room-homepage-wrap">
+                                        <a href="./html/kingroom.html">
+                                            <div class="kingroom-homepage-img room-homepage-img"></div>
+                                        </a>
+                                        <h2>King Room</h2>
+                                        <!-- <div class="room-hompage-price">
+                                            <sup>$</sup>
+                                            <span class="room-price-number">100</span>
+                                            <sub>/per night</sub>
+                                        </div> -->
+                                        <ul class="room-homepage-text-wrap">
+                                            <li class="room-homepage-description">
+                                                <strong>We are: </strong> 100% non-smoking facility
+                                            </li>
+                                            <li class="room-homepage-description">
+                                                <strong>Private: </strong> Bathroom
+                                            </li>
+                                            <li class="room-homepage-description">
+                                                <strong>Facilities: </strong>
+                                                Tea/Coffee Maker, Premium Cable TV Channels, Microwave and Refrigerator
+                                            </li>
+                                            <li class="room-homepage-description">
+                                                <strong>Size: </strong> 300 sq ft
+                                            </li>
+                                            <li class="room-homepage-description">
+                                                <strong>Bed Type: </strong> One King Bed
+                                            </li>
+                                        </ul>
+
+                                        <button class="more-info-btn more-info-each-room-btn">
+                                            <a href="./html/contact.html">
+                                                More Info
+                                            </a>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="col l-4 m-6 c-12"> 
+                                    <div class="room-homepage-wrap familysuite-homepage-wrap">
+                                        <a href="./html/familysuite.html">
+                                            <div class="familysuite-homepage-img room-homepage-img"></div>
+                                        </a>
+                                        <h2>Family Suite</h2>
+                                        <!-- <div class="room-hompage-price">
+                                            <sup>$</sup>
+                                            <span class="room-price-number">100</span>
+                                            <sub>/per night</sub>
+                                        </div> -->
+                                        <ul class="room-homepage-text-wrap">
+                                            <li class="room-homepage-description">
+                                                <strong>We are: </strong> 100% non-smoking facility
+                                            </li>
+                                            <li class="room-homepage-description">
+                                                <strong>Private: </strong> Bathroom
+                                            </li>
+                                            <li class="room-homepage-description">
+                                                <strong>Facilities: </strong>
+                                                Tea/Coffee Maker, Premium Cable TV Channels, Microwave and Refrigerator
+                                            </li>
+                                            <li class="room-homepage-description">
+                                                <strong>Size: </strong> 550 sq ft
+                                            </li>
+                                            <li class="room-homepage-description">
+                                                <strong>Bed Type: </strong> 3 Queen Beds, Sofa Bed and 1 Bathroom
+                                            </li>
+                                        </ul>
+
+                                        <button class="more-info-btn more-info-each-room-btn">
+                                            <a href="./html/contact.html">
+                                                More Info
+                                            </a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="moreroom-homepage">
+                                <a class="moreroom-link" href="./html/rooms.html">
+                                    <button class="moreroom-btn" type="button">
+                                        MORE ROOMS
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Main Page - Guest Review -->
+        <div class="guest-review-index-page guest-review-laptop-index-page">
+            <div class="guest-container">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-12 m-12 c-12">
+                            <div class="guest-title">
+                                <h2>Guest Reviews</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="guest-review">
+                    <div class="grid wide">
+                        <div class="row">
+                            <div class="col l-4 m-6 c-12">
+                                <div class="guest-review-info">
+                                    <div class="review-div">
+                                        <img src="https://cdn-icons-png.flaticon.com/512/0/93.png" alt="people1"
+                                            id="people1">
+                                        <div class="user-review-wrap">
+                                            <h2>Martin NewmanField</h2>
+                                            <div class="user-review-rating">
+                                                <i class="fa-solid fa-star user-review-star"></i>
+                                                <i class="fa-solid fa-star user-review-star"></i>
+                                                <i class="fa-solid fa-star user-review-star"></i>
+                                                <i class="fa-solid fa-star user-review-star"></i>
+                                                <i class="fa-solid fa-star user-review-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                    
+                                    <p>" From the moment I checked in, the staff were friendly and helpful, offering recommendations for local
+                                        attractions
+                                        and dining options. Overall, I couldn't have been happier with my experience at the Anaheim Carriage Inn Hotel and
+                                        would
+                                        give it a solid 5 out of 5 stars. "</p>
+                                </div>
+                            </div>
+                            <div class="col l-4 m-6">
+                                <div class="guest-review-info second-guest-review-info-mobile">
+                                    <div class="review-div">
+                                        <img src="https://cdn-icons-png.flaticon.com/512/65/65581.png" alt="people2"
+                                            id="people1">
+                                            <div class="user-review-wrap">
+                                                <h2>Lara Nunez</h2>
+                                                <div class="user-review-rating">
+                                                    <i class="fa-solid fa-star user-review-star"></i>
+                                                    <i class="fa-solid fa-star user-review-star"></i>
+                                                    <i class="fa-solid fa-star user-review-star"></i>
+                                                    <i class="fa-solid fa-star user-review-star"></i>
+                                                    <i class="fa-solid fa-star user-review-star"></i>
+                                                </div>
+                                            </div>
+                                    </div>
+                    
+                                    <p>" Staff are very friendly and helpful.
+                                        They were extremely accommodating and allowed us to check in early if we call ahead the front desk. We got to hotel super early and I didn’t wanna wait. 
+                                        So this was a big plus. The sevice was exceptional as well. Would definitely send a friend there. "</p>
+                                </div>
+                            </div>
+                            <div class="col l-4">
+                                <div class="guest-review-info third-guest-review-info-mobile">
+                                    <div class="review-div">
+                                        <img src="https://media.istockphoto.com/id/1209654046/vector/user-avatar-profile-icon-black-vector-illustration.jpg?s=170x170&k=20&c=szMjQvlEsCUjtuicszYI6ugAJymYBB4iqjsRtgqPV2A=" alt="people1"
+                                            id="people1">
+                                            <div class="user-review-wrap">
+                                                <h2>Kevin Ly</h2>
+                                                <div class="user-review-rating">
+                                                    <i class="fa-solid fa-star user-review-star"></i>
+                                                    <i class="fa-solid fa-star user-review-star"></i>
+                                                    <i class="fa-solid fa-star user-review-star"></i>
+                                                    <i class="fa-solid fa-star user-review-star"></i>
+                                                    <i class="fa-solid fa-star-half-stroke user-review-star"></i>
+                                                </div>
+                                            </div>
+                                    </div>
+                    
+                                    <p>" The rooms were clean, very comfortable, and the staff was amazing. 
+                                        They went over and beyond to help make our stay enjoyable. I highly recommend this hotel for anyone visiting downtown "</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Footer Part -->
+        <div class="footer">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-4 m-6 c-12">
+                        <h3 class="footer-introduce">About Us</h3>
+                        <p class="footer-introduce-paragraph">Our family-friendly hotel is situated just 2 blocks from Disneyland 
+                            and Downtown Disney and just 1 block from the recently expanded Anaheim Convention Center.
+                            The immediate area offers a wide choice of shops and restaurants that appeals to all tastes.
+                        </p>
+                        <a href="./html/about-us.html" class="footer-introduce-link">
+                            <button type="button" class="footer-introduce-btn">Learn More</button>
+                        </a>
+                    </div>
+                    <div class="col l-4 m-6 c-12">
+                        <h3 class="footer-introduce footer-experiences-title">experiences</h3>
+                        <ul class="footer-experiences">
+                            <li class="footer-experiences-child">
+                                <a href="index.html" class="footer-experiences-link">
+                                    Home
+                                </a>
+                            </li>
+                            <li class="footer-experiences-child">
+                                <a href="./html/rooms.html" class="footer-experiences-link">
+                                    Rooms
+                                </a>
+                            </li>
+                            <li class="footer-experiences-child">
+                                <a href="./html/service.html" class="footer-experiences-link">
+                                    Services
+                                </a>
+                            </li>
+                            <li class="footer-experiences-child">
+                                <a href="./html/attraction.html" class="footer-experiences-link">
+                                    Attractions
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="col l-4 m-6 c-12">
+                        <h3 class="footer-introduce">Contact Info</h3>
+                        <ul class="contact-info-parent">
+                            <li class="contact-info-child">
+                                <i class="fa-solid fa-location-dot contact-info-icon"></i>
+                                <p class="contact-info-description">2125 S. Harbor Blvd, Anaheim, <br> California 92802</p>
+                            </li>
+                            <li class="contact-info-child">
+                                <i class="fa-solid fa-phone contact-info-icon"></i>
+                                <p class="contact-info-description">(714)-740-1440</p>
+                            </li>
+                            <li class="contact-info-child">
+                                <i class="fa-solid fa-fax contact-info-icon"></i>
+                                <p class="contact-info-description">(714)-971-5330</p>
+                            </li>
+                            <li class="contact-info-child">
+                                <i class="fa-solid fa-envelope contact-info-icon"></i>
+                                <p class="contact-info-description">carriage.rainbow@gmail.com</p>
+                            </li>
+                            <li class="contact-info-child">
+                                <i class="fa-solid fa-clock contact-info-icon"></i>
+                                <p class="contact-info-description">Monday - Friday: 24 / 7</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-12 m-12 c-12">
+                        <div class="copyright">
+                            <p class="copyright-text">Copyright 2023 © Anaheim Carriage Inn Hotel</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
