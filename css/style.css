@@ -157,7 +157,6 @@
 /* Service-Hompage Part */
 .content { 
     position: relative;
-    transform: translateY(648px);
 }
 
 .service-homepage {
