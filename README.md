@@ -1,5 +1,3 @@
-![Hotel Booking Interface - About Us Page](https://github.com/user-attachments/assets/10b4f5e0-2096-4959-80fd-95dff72554c8)![Hotel Booking Interface - Contact Us Page](https://github.com/user-attachments/assets/17063daa-ddc5-4591-af2e-6e4449a1715f)![Hotel Booking Interface - About Us Page](https://github.com/user-attachments/assets/6c42ee74-3683-44a2-a3ee-de25c9d13506)# Hotel Booking User Interface
-
 ## Overview 
 This project showcases a real website interface designed for seamless and enjoyable hotel room booking experiences. Developed as a freelance web developer for my client, this interface aims to provide users with an intuitive and efficient way to book their stay, while also offering recommendations for top places to visit near the hotel.
 
