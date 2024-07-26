@@ -20,10 +20,20 @@ The main goal of this project is to provide hotel guests with a superior online 
 
 ## Demo
 ![Hotel Booking Interface - Main Page](https://github.com/user-attachments/assets/fcbaeef6-dce3-4dd2-ba77-03c0f820c7cd)
+<br/>
+<br/>
 ![Hotel Booking Interface - About Us Page](https://github.com/user-attachments/assets/07f394ba-624e-4353-a6f3-617de17c96d6)
+<br/>
+<br/>
 ![Hotel Booking Interface - Room Detail Page](https://github.com/user-attachments/assets/30de64f5-bbce-411e-a306-9e6ade876c37)
+<br/>
+<br/>
 ![Hotel Booking Interface - Service Page](https://github.com/user-attachments/assets/c9157035-b1e2-49b8-aef2-bd32504fc9ee)
+<br/>
+<br/>
 ![Hotel Booking Interface - Attractions Page](https://github.com/user-attachments/assets/fb1e2efa-0678-4130-a04b-09b519cc258d)
+<br/>
+<br/>
 ![Hotel Booking Interface - Contact Us Page](https://github.com/user-attachments/assets/89e46efd-64a5-4d89-aa96-59797b1927ee)
 
 
